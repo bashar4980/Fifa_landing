@@ -1,7 +1,7 @@
 /* Responsive css  */
 @media screen and (min-width:768px) and (max-width:991px) {
     #blog_section {
-
+        
         display       : flex;
         flex-direction: column;
 
@@ -45,6 +45,10 @@
 }
 
 @media screen and (max-width:767px) {
+    #header_section{
+        margin-top: 10px;
+       
+    }
     .flex_section {
         
        flex-direction: column;
